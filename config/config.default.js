@@ -62,8 +62,8 @@ exports.build = {
         require.resolve('babel-plugin-import'),
         {
           libraryName: 'antd-mobile',
-          libraryDirectory: 'es',
-          style: true,
+          // libraryDirectory: 'es',
+          // style: true,
         },
         'antd-mobile',
       ],
