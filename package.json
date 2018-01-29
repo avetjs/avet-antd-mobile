@@ -1,0 +1,30 @@
+{
+  "name": "avet-antd-mobile",
+  "version": "1.0.0",
+  "description": "avet antd mobile",
+  "avetPlugin": {
+    "name": "antdMobile"
+  },
+  "keywords": ["avet", "avetPlugin", "avet-plugin", "antd mobile"],
+  "dependencies": {
+    "antd-mobile": "2.1.5",
+    "babel-plugin-import": "^1.6.3",
+    "require-hacker": "^3.0.0",
+    "svg-sprite-loader": "0.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-avet": "^0.4.2"
+  },
+  "author": "okoala <dapixp@gmail.com>",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "files": ["config"],
+  "ci": {
+    "version": "8",
+    "license": true
+  },
+  "license": "MIT"
+}
