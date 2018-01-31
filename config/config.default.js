@@ -34,6 +34,10 @@ function moduleDir(m) {
   return path.dirname(require.resolve(`${m}/package.json`));
 }
 
+exports.antdMobile = {
+  cssUrl: '//unpkg.com/antd-mobile/dist/antd-mobile.min.css',
+};
+
 exports.build = {
   webpack: config => {
     config.resolve.extensions = [ '.web.js', '.js', '.json' ];
